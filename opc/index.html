@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Odontológica</title>
+    <link rel="stylesheet" href="/opc/style2.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <form class="sidebar_form">
+                <input type="checkbox" id="open-menu">
+                <label class="material-symbols-outlined" for="open-menu">close</label>
+                <label class="material-symbols-outlined open-button" for="open-menu">open_in_full</label>
+            </form>
+            <picture class="sidebar_picture">
+                <img src="img/logo.png" alt="Logo de la Clínica Odontológica">
+            </picture>
+            <nav class="sidebar_nav">
+                <ul>
+                    <li class="sidebar_item">
+                        <span class="material-symbols-outlined">home</span>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li class="sidebar_item">
+                        <span class="material-symbols-outlined">patient_list</span>
+                        <a href="#">Pacientes</a>
+                    </li>
+                    <li class="sidebar_item">
+                        <span class="material-symbols-outlined">calendar_clock</span>
+                        <a href="#">Citas</a>
+                    </li>
+                    <li class="sidebar_item">
+                        <span class="material-symbols-outlined">notifications</span>
+                        <a href="#">Notificaciones</a>
+                    </li>
+                    <li class="sidebar_item">
+                        <span class="material-symbols-outlined">settings</span>
+                        <a href="#">Configuración</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar_profile">
+                <ul>
+                    <li class="sidebar_item item--profile">
+                        <img src="img/user.jpg" alt="Imagen de perfil">
+                        <span class="profile-option">Perfil</span>
+                    </li>
+                    <li class="sidebar_item">
+                        <span class="material-symbols-outlined">logout</span>
+                        <a href="#">Cerrar sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <header class="top-bar">
+            <h1>Clínica Odontológica</h1>
+            <a href="#" class="logout">
+                <span class="material-symbols-outlined">logout</span>
+            </a>
+        </header>
+
+        <main>
+            <div class="header2">
+                <div class="swiper mySwiper-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <div class="slider-txt">
+                                    <h1>Odontólogo</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sequi aperiam similique eos pariatur excepturi architecto perspiciatis totam quia eaque earum iste omnis, est, culpa atque sed placeat recusandae ipsam?</p>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="img/img1.jpg" alt="Odontología">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <div class="slider-txt">
+                                    <h1>Odontólogos</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sequi aperiam similique eos pariatur excepturi architecto perspiciatis totam quia eaque earum iste omnis, est, culpa atque sed placeat recusandae ipsam?</p>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="img/img2.jpg" alt="Odontología">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <!-- Contenido del pie de página -->
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
